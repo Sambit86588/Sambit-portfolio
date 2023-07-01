@@ -1,0 +1,115 @@
+     *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(79, 79, 162);
+            color: white;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: blueviolet;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 20px;
+            font-size: 1.2rem;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        nav ul li a:hover{
+            color:aliceblue;
+            font-size: 1.5rem;
+        }
+        main hr {
+            border: 0;
+            background-color: aliceblue;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+           
+            
+        }
+        .firstSection > div{
+            width: 50%;
+        }
+        .leftSection{
+            
+            font-size: 3rem;
+            margin: 70px 40px;
+            
+        }
+        .rightSection{
+            width: 80px;
+            
+            
+    
+            
+        }
+        .Blue{
+            color: rgb(0, 0, 0);
+        }
+        .pic{
+            size: 20px;
+            margin: 100px 200px;
+            max-height: 20vh;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            font-size: 1.6rem;
+            color: white;
+            height: 40vh;
+        }
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 40px 30px;
+        }
+        .thirdSection{
+            max-width: 80vw;
+            margin: auto;
+            font-size: 1.6rem;
+            color: white;
+            height: 40vh;
+        }
+        .thirdSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 40px 30px;
+        }
+        .forthSection{
+            max-width: 80vw;
+            margin: auto;
+            font-size: 1.6rem;
+            color:white;
+            height: 80vh;
+
+        }
+        .forthSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 40px 30px;
+            background-color: beige;
+        }
